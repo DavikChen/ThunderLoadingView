@@ -7,6 +7,15 @@
 #useage
 
 - **xml**
+
+```
+ <com.taobao.library.ThunderLoadingView
+            android:id="@+id/view"
+            app:thunder_size="MEDIUM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+```
+
 ```
  //create from xml
   ThunderLoadingView view = (ThunderLoadingView) findViewById(R.id.view);
