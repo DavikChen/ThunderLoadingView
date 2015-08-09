@@ -127,7 +127,7 @@ public class ThunderLoadingView extends View {
     @Override
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
-        getHandler().removeCallbacks(mRunnable);
+        removeCallbacks(mRunnable);
     }
 
     @Override
